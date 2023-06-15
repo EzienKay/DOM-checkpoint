@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.2.96/css/materialdesignicons.min.css" integrity="sha512-LX0YV/MWBEn2dwXCYgQHrpa9HJkwB+S+bnBpifSOTO1No27TqNMKYoAn6ff2FBh03THAzAiiCwQ+aPX+/Qt/Ow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>DOM Check Point</title>
+</head>
+<body>
+    <main>
+        <div>
+            <p class="param"><span class="mdi mdi-chevron-left"></span>Shopping Continue</p>
+            <hr>
+            <p class="param2">Shopping Cart</p>
+            <p class="param3">You have <span>3</span>item in your cart</p>
+        </div>
+        <div class="cart-item">
+            <img class="productImg" src="https://www.boss-pizza.co.uk/site/assets/images/uploads/2_3_5c232a9d83be_o.jpg" alt="">
+            <div>
+                <h2>Italy Pizza</h2>
+                <p>Extra cheese and toping</p>
+            </div>
+            <span class="mdi mdi-heart-circle-outline myIcon likeIcon"></span>
+            <div class="productQuantity">
+                <button id="plus">+</button>
+                <span id="count">1</span>
+                <button id="minus">-</button>
+            </div>
+            <small>Unit Price: <Span>$80</Span></small>
+            <small>Sub Total Price: <Span class="subtot">$80</Span></small>
+            <span class="mdi mdi-trash-can-outline myIcon deleteBtn"></span>
+        </div>
+
+
+        <div class="cart-item">
+            <img class="productImg" src="https://veganhuggs.com/wp-content/uploads/2021/02/spanish-rice-and-beans-in-pan-overhead-view.jpg" alt="">
+            <div>
+                <h2>Spanish Rice</h2>
+                <p>Extra garllic</p>
+            </div>
+            <span class="mdi mdi-heart-circle-outline myIcon likeIcon"></span>
+            <div class="productQuantity">
+                <button id="plus">+</button>
+                <span id="count">1</span>
+                <button id="minus">-</button>
+            </div>
+            <small>Unit Price: <Span>$120</Span></small>
+            <small>Sub Total Price: <Span class="subtot">$120</Span></small>
+            <span class="mdi mdi-trash-can-outline myIcon deleteBtn"></span>
+        </div>
+
+
+        <div class="cart-item">
+            <img class="productImg" src="https://img.freepik.com/premium-photo/close-up-portion-mixed-grilled-barbecue-combo-plate-with-chicken-buffalo-wings-beef-spare-ribs-skewer-meat-wooden-board-black-table-planks-elevated-top-view-directly_273651-1302.jpg?w=900" alt="">
+            <div>
+                <h2>Combo Plate</h2>
+                <p>Extra cheese and toping</p>
+            </div>
+            <span class="mdi mdi-heart-circle-outline myIcon likeIcon"></span>
+            <div class="productQuantity">
+                <button class="plus">+</button>
+                <span id="count2">1</span>
+                <button class="minus">-</button>
+            </div>
+            <small>Unit Price: <Span>$100</Span></small>
+            <small>Sub Total Price: <Span class="subtot">$100</Span></small>
+            <span class="mdi mdi-trash-can-outline myIcon deleteBtn"></span>
+        </div>
+    </main>
+
+
+    <script src="scripts/script.js"></script>    
+</body>
+</html>

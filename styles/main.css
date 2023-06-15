@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-inline: 13%;
+    color: #1E1E1E;
+}
+
+main {
+    margin-block: 40px;
+}
+
+.param, .param2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.param2 {
+    font-weight: 500;
+}
+
+.param3 {
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 50px;
+}
+
+hr {
+    background: #D0CFCF;
+    border: 1px solid #D0CFCF;
+    margin: 5px 0 20px 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding-left: 12px;
+    padding-right: 50px;
+    padding-block: 12px;
+    margin-bottom: 20px;
+}
+
+.productImg {
+    max-width: 130px;
+    border-radius: 12px;
+}
+
+.myIcon {
+    font-size: 25px;
+    color: grey;
+    box-shadow: 0px 2px 2px -1px rgba(128, 128, 128, 0.1);
+    border-radius: 23px;
+}
+
+.productQuantity {
+    display: flex;
+    align-items: center;
+    grid-column-gap: 14px;
+}
+
+.productQuantity button {
+    border: none;
+    padding: 7px 14px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px 0px rgba(128, 128, 128, 0.5);
+}
+
+.productQuantity button:hover {
+    cursor: pointer;
+}
+
+.subtot {
+    border: 3px solid #b4ff00;
+    padding: 3px 8px;
+}
+
+/* .btnGeneral {
+    border: none;
+    background-color: white;
+}
+
+.btnGeneral {
+    cursor: pointer;
+}
+
+.prodName {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(12, 12, 12, 0.789);
+    max-width: 150px;
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+
+.productColor {
+    color: lightgray;
+    font-weight: 600;
+    line-height: 8px;
+}
+
+
+.quantity {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-price {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.total {
+    display: flex;
+    grid-column-gap: 50px;
+    align-items: center;
+    width: fit-content;
+    margin-left: auto;
+}
+.total p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.total span {
+    color: grey;
+    font-size: 22px;
+    font-weight: 600;
+} */
